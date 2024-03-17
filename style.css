@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #222831;
+}
+
+#title {
+  text-align: center;
+  color: #eeeeee;
+}
+
+.cal {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+button {
+  width: 55px;
+  padding: 0.7rem 1rem;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  margin: 0 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #76abae;
+  color: #eeeeee;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  width: 230px;
+  padding: 8px 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 0 4px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+  text-align: right;
+}
+
+/* .clear {
+    padding: 0.8rem;
+}
+
+.operator {
+    padding: 0.8rem;
+} */
